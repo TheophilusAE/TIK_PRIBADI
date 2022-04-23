@@ -23,4 +23,5 @@ int main () {
         a += 4;
     }
     
+    return 0;
 }
