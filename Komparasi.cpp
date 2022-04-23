@@ -1,5 +1,11 @@
+#include <iostream>
+
+using namespace std;
+
+int main () {
+
 int a = 2;
- int b = 3;
+int b = 3;
 
 bool hasil1, hasil2, hasil3, hasil4, hasil5, hasil6;
 
@@ -31,3 +37,6 @@ cout << hasil5 << endl;
 // lebih dari sama dengan ( >= )
 hasil6 = (a >= b);
 cout << hasil6 << endl;
+ 
+ return 0;
+}
