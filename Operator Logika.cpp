@@ -1,5 +1,11 @@
- int a = 3;
- int b = 1;
+#include <iostream>
+
+using namespace std;
+
+int main () {
+
+int a = 3;
+int b = 1;
  
  bool hasil1, hasil2, hasil3, hasil4, hasil5;
  
@@ -22,3 +28,6 @@ cout << hasil2 << endl;
 cout << "untuk or" << endl;
 hasil3 = (a == 3) or (b == 2);
 cout << hasil3 << endl;
+
+return 0;
+}
