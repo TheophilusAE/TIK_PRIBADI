@@ -31,4 +31,6 @@ int main () {
   cout << d << endl;
   d--;
   cout << d << endl << endl;
+  
+  return 0;
 }
