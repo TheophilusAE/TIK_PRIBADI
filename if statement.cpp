@@ -1,3 +1,9 @@
+#include <iostream>
+
+using namespace std;
+
+int main () {
+
 int a;
    cout << "masukan angka = ";
    cin >> a;
@@ -13,3 +19,6 @@ int a;
    {
        cout << "false" << endl;
    }
+
+   return 0;
+}
