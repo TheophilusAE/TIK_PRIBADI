@@ -1,3 +1,5 @@
+int main () {
+
 int a = 10;
 int b = 5;
 
@@ -22,3 +24,6 @@ cout << a << " / " << b << " = " << hasil << endl;
 // modulus
 hasil = a % b;
 cout << a << " % " << b << " = " << hasil << endl;
+
+return 0;
+}
