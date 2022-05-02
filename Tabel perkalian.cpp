@@ -8,9 +8,11 @@ int main()
     cout<< " masukan angka positif : ";
     cin >> a;
     
-    for (int b = 1 ; b <= 10 ; ++b) {
+    for (int b = 1 ; b <= 30 ; ++b) {
         cout << a << " * " << b << " = " << a*b << endl;
     }
 
     return 0;
 }
+
+// NOTE : untuk menentukan batas perkalian ganti batas dari b
