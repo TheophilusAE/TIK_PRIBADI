@@ -4,11 +4,14 @@ using namespace std;
 
 int main()
 {
-    int a;
-    cout<< " masukan angka positif : ";
+    int a,b,c;
+    cout << "masukan angka: ";
     cin >> a;
     
-    for (int b = 1 ; b <= 30 ; ++b) {
+    cout << "masukan batas perkalian: ";
+    cin >> c;
+    
+    for ( b = 0 ; b <= c  ; ++b) {
         cout << a << " * " << b << " = " << a*b << endl;
     }
 
