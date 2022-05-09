@@ -3,25 +3,25 @@ using namespace std;
 
 int main()
 {
-    int n;
-    int f_n;
-    int f_n1;
-    int f_n2;
+    int a;
+    int f_a;
+    int f_a1;
+    int f_a2;
     
     cout << "PROGRAM DERET FIBONACI \n";
     cout << "Masukan nilai ke-n: ";
-    cin >> n;
+    cin >> a;
     
-    f_n1 = 1;
-    f_n2 = 0;
-    f_n = f_n1 + f_n2;
-    cout << f_n << " ";
+    f_a1 = 1;
+    f_a2 = 0;
+    f_a = f_a1 + f_a2;
+    cout << f_a << " ";
     
-    for (int i = 1; i < n; i++) {
-        f_n = f_n1 + f_n2;
-        f_n2 = f_n1;
-        f_n1 = f_n;
-        cout << f_n << " ";
+    for (int b = 1; b < a; b++) {
+        f_a = f_a1 + f_a2;
+        f_a2 = f_a1;
+        f_a1 = f_a;
+        cout << f_a << " ";
     }
     cout << "\n";
     
