@@ -10,7 +10,7 @@ int main()
    
     
     for ( b = 0 ; b <= 10  ; ++b) {
-        cout << a << " * " << b << " = " << a*b << endl;
+        cout << a << " x " << b << " = " << a*b << endl;
     }
 
     return 0;
