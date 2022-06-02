@@ -25,17 +25,17 @@ int main()
    
    cout << "D = " << d << endl;
    
-   /*
-   if (d = 0) {
+   
+   if (d == 0) {
        cout << "akar kembar";
    }
-   if else (d < 0){
+   if else (d << 0){
        cout << "akar real";
    }
-   if else (d > 0){
+   if else (d >> 0){
        cout << "akar imajiner";
    }
+ 
   
-  */
     return 0;
 }
