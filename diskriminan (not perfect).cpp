@@ -29,13 +29,14 @@ int main()
    if (d == 0) {
        cout << "akar kembar";
    }
-   if else (d << 0){
+   else if (d << 0){
        cout << "akar real";
    }
-   if else (d >> 0){
+   else if (d >> 0){
        cout << "akar imajiner";
    }
- 
-  
+   else {
+       cout << "input yang benar";
+   }
     return 0;
 }
